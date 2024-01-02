@@ -8,7 +8,7 @@ from roop.typing import Frame
 
 PREDICTOR = None
 THREAD_LOCK = threading.Lock()
-MAX_PROBABILITY = 10000.85
+MAX_PROBABILITY = 0.85 #10000.85
 
 
 def get_predictor() -> Model:
